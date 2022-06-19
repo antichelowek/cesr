@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgreen;
+}
+img {
+    width:250px;
+    height:150px ;
+}
+p:hover {
+    color: aquamarine;
+    background-color: cadetblue;
+    width: 300px;
+}
+a:hover {
+    color: lime;
+    background-color: greenyellow;
+}
+h1:hover {
+    color:yellowgreen;
+    background-color: goldenrod;
+}
+h2:hover {
+    color: whitesmoke;
+    background-color: white;
+}
+h1:visited {
+color: gainsboro;
+background-color: green;
+}
+img:hover {
+    transform: scale(5s);
+    transition: 6s linear;
+    margin: 100px;
+    opacity: 70%;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+}
